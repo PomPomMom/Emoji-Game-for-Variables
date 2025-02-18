@@ -101,6 +101,6 @@ Add two more sprites using the same procedure as before, but give `mySprite2` th
 ```
 
 ## **Complete!**
-You have started your emoji game and learned about variables! Continue in the next lesson to add conditionals to your game.
+You have started your emoji game and learned about variables! Continue in the next activity to add conditionals to your game.
 
 
