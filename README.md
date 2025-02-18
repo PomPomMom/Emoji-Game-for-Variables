@@ -104,10 +104,3 @@ Add two more sprites using the same procedure as before, but give `mySprite2` th
 You have started your emoji game and learned about variables! Continue in the next lesson to add conditionals to your game.
 
 
-# Lesson 2: Click the Emotion Game
-
-## Introduction
-You should have already begun your code by adding empty sprite variables and a score variable.
-
-
-
