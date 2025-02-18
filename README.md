@@ -1,4 +1,4 @@
-# Lesson 1: Click the Emotion Game
+# Activity 1: Click the Emotion Game
 
 
 ## Introduction
