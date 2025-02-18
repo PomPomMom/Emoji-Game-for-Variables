@@ -33,7 +33,15 @@ Next to the first line of code there should be a paint palate icon. Click onthe 
 
 ![Palate icon appears next to the set background code](https://raw.githubusercontent.com/PomPomMom/Images/refs/heads/main/background%20image%20python.png)
 
-## **Step 3: Setting Up Your Variables**
+
+## **Step 3: Set up a score variable
+This game will keep score for every time the player makes the correct choice. Let's set a variable to keep score.
+We will set this as an info type so it will be displayed on the screen.
+
+```
+info.set_score(0)
+```
+## **Step 4: Set Up Sprite Variables**
 Now let's create the necessary **global variables**. We will have 3 emotion sprites and a variable called `currentEmotion` so the program can keep track of which emotion is showing.
 
 ```python
@@ -48,7 +56,7 @@ A **global variable** is a vairable that can be used anywhere in your code. This
 `mySprite`, `mySprite2`, and `mySprite3` are Sprite image variables.
 `currentEmotion` is a string variable that tracks the emotion.`
 
-## **Step 4: Create the nextEmoji() Function**
+## **Step 5: Create the nextEmoji() Function**
 Now, let's define a function to update the emotion and display the correct sprite. 
 We will use the `def` keyword to define the function, and we will call the function nextEmoji
 
@@ -56,7 +64,7 @@ We will use the `def` keyword to define the function, and we will call the funct
 
 Anything included in this function must be indented beneath it.
 
-## **Step 5: Add a sprite variable to your function**
+## **Step 6: Add a sprite variable to your function**
 In Makecode Arcade, you must call a sprite with the `variable name`, Arcade `call code`, an `image`, and a `type`.
 - Name the sprite `mySprite`
 - Make it equal to the Arcade call code: `sprites.create`
@@ -72,7 +80,7 @@ When you begin typing the call code `sprites.create` indented in the nextemoji()
     mySprite = sprites.create(assets.image(""" happy """), SpriteKind.player)
  ```
 
-## **Step 6: Add an Image to your Sprite Variable.**
+## **Step 7: Add an Image to your Sprite Variable.**
 When you have initialized your sprite, a paint palate icon will appear next to your code. Click on it.
 ![Paint palate icon next to sprite code](https://github.com/PomPomMom/Images/blob/5d7ea68c31ab68517b403e690cee94b6c796d8ee/Image%20chooser.png?raw=true)
 
@@ -80,7 +88,7 @@ At the top, choose "My Assets" and pick the happy face emoji. Then click Done in
 ```mySprite = sprites.create(assets.image("""Happy"""), SpriteKind.player)```
 
 
-## **Step 7: Add two more sprites**
+## **Step 8: Add two more sprites**
 Add two more sprites using the same procedure as before, but give `mySprite2` the `sad` image and `mySprite3` the `angry` image.
 
 ```
@@ -90,13 +98,6 @@ Add two more sprites using the same procedure as before, but give `mySprite2` th
     mySprite3 = sprites.create(assets.image("""
         angry
     """), SpriteKind.player)
-```
-## **Step 8: Add a score variable
-This game will keep score for every time the player makes the correct choice. Let's set a variable to keep score.
-We will set this as an info type so it will be displayed on the screen.
-
-```
-info.set_score(0)
 ```
 
 ## **Complete!**
